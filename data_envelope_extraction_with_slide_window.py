@@ -136,7 +136,7 @@ def write_image(pixels, width, height, file_name):
             #print('\n Y: {},{} ',ystart,yend)
     
             subimage = img[xstart:xend,ystart:yend,:]
-            name='image_'+str(xpointer)+'_'+str(ypointer)+'_'+str(xend)+'_'+str(yend)+'.jpeg'
+            name='image_'+str(xpointer)+'_'+str(ypointer)+'_'+str(xend)+'_'+str(yend)+'.png'
             im=Image.fromarray(subimage)
             if not isbackground(im): im.save(file_name+'/'+name)
             #im.save(file_name+'/'+name)
