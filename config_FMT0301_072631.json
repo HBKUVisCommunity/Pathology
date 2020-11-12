@@ -1,0 +1,23 @@
+{
+    "img_dir": "C:/Users/magus/openslide-python-master/openslide-python-master/examples/deepzoom/FMT0301_072631/slide_files",
+    "seg_dir": "C:/Users/magus/inshade/sidra/FMT0299_065721", "out_dir": "C:/Users/magus/inshade/sidra/FMT0301_072631_out",
+    "ann_dir": "C:/Users/magus/openslide-python-master/openslide-python-master/examples/deepzoom/FMT0301_072631_ann/slide_files",
+    "model_dir": "C:/Users/magus/squeezenet/testing/modelNI",
+    "labels_file": "labelNI.pkl",
+    "contours_file": "contours.pkl",
+    "use_custom_roi": false,
+    "roi": [30, 34, 40, 44],
+    "border": 32, "inner": 1024,
+    "nuclei_dir": "nuclei",
+    "extract_contours": false,
+    "extract_nuclei": false,
+    "inference": true,
+    "annotations": true,
+    "resolutions": [3, 4, 5, 6],
+    "contour_width": 2,
+    "dpi": 77,
+    "label_color_map": "Set1_5",
+    "channel_color_maps": ["Blues","Reds", "Greens","Set1"],
+    "scatter_sizes": [20, 15, 10, 5],
+    "channels": [0, 1, 2, -1]
+}
